@@ -74,7 +74,7 @@
   }
   .home-container2 {
     width: 479px;
-    height: 361px;
-    padding: var(--dl-space-space-oneandhalfunits);
+    height: 413px;
+    padding: var(--dl-space-space-threeunits);
   }
 }
