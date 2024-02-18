@@ -8,10 +8,6 @@
   justify-content: flex-start;
   background-color: #ffd3d3;
 }
-.home-image {
-  width: 200px;
-  object-fit: cover;
-}
 .home-container1 {
   flex: 0 0 auto;
   width: auto;
@@ -20,14 +16,28 @@
   align-items: flex-start;
   justify-content: center;
 }
-.home-image1 {
+.home-image {
   width: 200px;
   object-fit: cover;
 }
 .home-container3 {
   display: contents;
 }
+.home-container5 {
+  display: contents;
+}
+.home-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.home-container7 {
+  display: contents;
+}
 @media(max-width: 767px) {
+  .home-text {
+    margin: var(--dl-space-space-twounits);
+    font-family: Spectral;
+  }
   .home-image {
     top: 31px;
     right: 6px;
@@ -37,10 +47,6 @@
     position: absolute;
     align-self: flex-end;
   }
-  .home-text {
-    margin: var(--dl-space-space-twounits);
-    font-family: Spectral;
-  }
   .home-container2 {
     width: 726px;
   }
@@ -48,12 +54,6 @@
 @media(max-width: 479px) {
   .home-container {
     background-color: #ffdbdb;
-  }
-  .home-image {
-    top: 69px;
-    right: 20px;
-    width: 125px;
-    height: 124px;
   }
   .home-container1 {
     height: 90px;
@@ -64,17 +64,39 @@
     padding-top: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .home-image {
+    top: 80px;
+    right: 19px;
+    width: 125px;
+    height: 124px;
+    opacity: 0.5;
+  }
+  .home-container2 {
+    width: 479px;
+    height: 357px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .home-container4 {
+    width: 477px;
+    height: 318px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
   .home-image1 {
-    top: 44px;
-    left: 40px;
+    top: 146px;
+    left: 134px;
     width: 142px;
     height: 117px;
     opacity: 0.5;
     position: absolute;
   }
-  .home-container2 {
-    width: 479px;
-    height: 413px;
-    padding: var(--dl-space-space-threeunits);
+  .home-container6 {
+    width: 477px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
   }
 }
