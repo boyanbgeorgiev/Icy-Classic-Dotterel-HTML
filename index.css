@@ -8,12 +8,73 @@
   justify-content: flex-start;
   background-color: #ffd3d3;
 }
+.home-image {
+  width: 200px;
+  object-fit: cover;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.home-container3 {
+  display: contents;
+}
+@media(max-width: 767px) {
+  .home-image {
+    top: 31px;
+    right: 6px;
+    width: 180px;
+    height: 176px;
+    z-index: 100;
+    position: absolute;
+    align-self: flex-end;
+  }
+  .home-text {
+    margin: var(--dl-space-space-twounits);
+    font-family: Spectral;
+  }
+  .home-container2 {
+    width: 726px;
+  }
+}
 @media(max-width: 479px) {
   .home-container {
     background-color: #ffdbdb;
   }
+  .home-image {
+    top: 69px;
+    right: 20px;
+    width: 125px;
+    height: 124px;
+  }
+  .home-container1 {
+    height: 90px;
+  }
   .home-text {
+    height: 86px;
     align-self: center;
     padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-image1 {
+    top: 44px;
+    left: 40px;
+    width: 142px;
+    height: 117px;
+    opacity: 0.5;
+    position: absolute;
+  }
+  .home-container2 {
+    width: 479px;
+    height: 361px;
+    padding: var(--dl-space-space-oneandhalfunits);
   }
 }
