@@ -72,14 +72,14 @@
     opacity: 0.5;
   }
   .home-container2 {
-    width: 479px;
+    width: 388px;
     height: 357px;
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
   .home-container4 {
-    width: 477px;
+    width: 381px;
     height: 318px;
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-threeunits);
@@ -94,9 +94,11 @@
     position: absolute;
   }
   .home-container6 {
-    width: 477px;
+    width: 380px;
+    height: 421px;
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
+    padding-bottom: 0px;
   }
 }
